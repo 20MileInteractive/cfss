@@ -4280,6 +4280,26 @@ header .top-bar {
   margin-bottom: 0; }
 header #logo {
   padding: 1rem 0; }
+header .hide-for-small {
+  text-align: right;
+  padding-top: 1rem; }
+
+footer {
+  margin: 4rem auto 3rem;
+  text-align: center; }
+  footer ul {
+    text-align: center;
+    display: block;
+    width: 100%; }
+  footer #social-icons a {
+    background: #2ba6cb;
+    height: 1.8rem;
+    width: 1.8rem;
+    color: #fff;
+    text-align: center;
+    line-height: 1.8rem;
+    border-radius: 25px;
+    display: inline-block; }
 
 #home-banner {
   background: url(http://placehold.it/2000x1000&text=photo) center center;
@@ -4288,9 +4308,37 @@ header #logo {
   #home-banner img#home-news-thumb {
     float: left; }
 
-#home-benefits h2 {
-  text-align: center;
-  padding: 2rem 0; }
-#home-benefits p:last-child {
-  margin-top: 1rem;
-  color: #999; }
+#home-benefits {
+  background: #eee; }
+  #home-benefits h2 {
+    text-align: center;
+    padding: 2rem 0; }
+  #home-benefits p:last-child {
+    margin-top: 1rem;
+    color: #999; }
+  #home-benefits #home-cta {
+    text-align: center; }
+    #home-benefits #home-cta a {
+      margin: 3rem auto -2rem;
+      padding: 1rem 2rem;
+      text-align: center; }
+
+.wod {
+  margin: 2rem auto; }
+  .wod h3 span {
+    color: #2ba6cb;
+    font-weight: bold; }
+  .wod ul li {
+    background: #eee;
+    margin: .3rem 0;
+    padding: 1rem;
+    list-style-type: none;
+    border-radius: 5px; }
+  .wod span {
+    font-weight: normal;
+    color: #888; }
+  .wod .comments .row {
+    border-bottom: 1px solid #ddd;
+    padding: 1rem 0; }
+  .wod .small-6 .button {
+    margin-top: 2rem; }

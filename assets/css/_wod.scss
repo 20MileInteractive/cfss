@@ -1,0 +1,37 @@
+.wod {
+
+	margin:2rem auto;
+	h3 {
+			span{
+				color:$primary-color;
+				font-weight:bold;
+			}
+		}
+
+	ul {
+		li {
+			background:#eee;
+			margin:.3rem 0;
+			padding: 1rem;
+			list-style-type:none;
+			border-radius:5px;
+
+		}
+	}
+
+	span{
+		font-weight:normal;
+		color:#888;
+	}
+
+	.comments {
+		.row {
+			border-bottom:1px solid #ddd;
+			padding:1rem 0;
+		}
+	}
+
+	.small-6 .button{
+		margin-top:2rem;
+	}
+}

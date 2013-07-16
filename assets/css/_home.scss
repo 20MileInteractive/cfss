@@ -1,24 +1,37 @@
-#home-banner{
-	background: url(http://placehold.it/2000x1000&text=photo) center center;
-	min-height:400px;
-	padding:4rem 0;
+#home-banner {
+	background : url(http://placehold.it/2000x1000&text=photo) center center;
+	min-height :400px;
+	padding :4rem 0;
 
 	img#home-news-thumb{
-		float:left;
+		float : left;
 	}
 }
 
-#home-benefits{
-	h2{
+#home-benefits {
+
+	background: #eee;
+	h2 {
 		@include center-text;
-		padding:2rem 0;
+		padding : 2rem 0;
 	}
 
-	h4{
+	h4 {
 
 	}
-	p:last-child{
-		margin-top:1rem;
-		color:#999;
+	p:last-child {
+		margin-top : 1rem;
+		color : #999;
 	}
+
+	#home-cta {
+		@include center-text;
+
+		a {
+		margin: 3rem auto -2rem;
+		padding: 1rem 2rem;
+		text-align:center; 
+		}
+	} 
+
 }
