@@ -1,0 +1,24 @@
+#home-banner{
+	background: url(http://placehold.it/2000x1000&text=photo) center center;
+	min-height:400px;
+	padding:4rem 0;
+
+	img#home-news-thumb{
+		float:left;
+	}
+}
+
+#home-benefits{
+	h2{
+		@include center-text;
+		padding:2rem 0;
+	}
+
+	h4{
+
+	}
+	p:last-child{
+		margin-top:1rem;
+		color:#999;
+	}
+}
