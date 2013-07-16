@@ -1,4 +1,4 @@
-cfss
-====
+project-starter-template
+========================
 
-Crossfit South Shore
+Template for web projects with Hammer and Foundation4
