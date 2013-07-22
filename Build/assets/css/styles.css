@@ -4274,6 +4274,16 @@ a.th {
 ul, ol {
   list-style-position: inside; }
 
+.interior {
+  margin: 2rem auto; }
+  .interior section.row {
+    border-bottom: 1px solid #eee;
+    margin: 1.5rem auto;
+    padding-bottom: 1.5rem; }
+
+div#main-cta {
+  text-align: center; }
+
 header #nav-banner {
   background: #111; }
 header .top-bar {
@@ -4345,3 +4355,18 @@ footer {
   .wod .sidebar section {
     background: #ddd;
     padding: 1rem; }
+
+.blog-excerpt {
+  margin: 1rem auto;
+  padding: 1rem; }
+
+.blog-excerpt:nth-child(even) {
+  background: #eee; }
+
+.wod ul.pagination {
+  margin-top: 3rem; }
+
+.classes {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1.5rem;
+  margin-top: 1.5rem; }

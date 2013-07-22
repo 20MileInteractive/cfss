@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CrossFit South Shore</title>
+
+  
+        <!-- Hammer reload -->
+          <script>
+            setInterval(function(){
+              try {
+                if(typeof ws != 'undefined' && ws.readyState == 1){return true;}
+                ws = new WebSocket('ws://'+(location.host || 'localhost').split(':')[0]+':35353')
+                ws.onopen = function(){ws.onclose = function(){document.location.reload()}}
+                ws.onmessage = function(){
+                  var links = document.getElementsByTagName('link'); 
+                    for (var i = 0; i < links.length;i++) { 
+                    var link = links[i]; 
+                    if (link.rel === 'stylesheet' && !link.href.match(/typekit/)) { 
+                      href = link.href.replace(/((&|\?)hammer=)[^&]+/,''); 
+                      link.href = href + (href.indexOf('?')>=0?'&':'?') + 'hammer='+(new Date().valueOf());
+                    }
+                  }
+                }
+              }catch(e){}
+            }, 1000)
+          </script>
+        <!-- /Hammer reload -->
+      
+
+  <link rel='stylesheet' href='assets/css/normalize.css'>
+  <link rel='stylesheet' href='assets/css/styles.css'>
+
+  <script src='assets/js/vendor/custom.modernizr.js'></script>
+
+</head>
+<body>
+
+<header>
+	<div class="row">
+			<section class="large-6 columns"><a href="index.html"><img id="logo" src="assets/img/logo.png"/></a></section>
+			<p class="large-6 columns hide-for-small">
+				145 Webster St, Hanover, MA 02339<br/>
+				<b>781-799-0294</b>
+			</p>
+	</div>
+	<div id="nav-banner">
+		<div class="row">
+			<nav class="top-bar">
+				<ul class="title-area">
+				    <!-- Title Area -->
+				    <li class="name">
+				    	<h1><a href="#"></a></h1>
+				    </li>
+				    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+				    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+				</ul>
+
+				<section class="top-bar-section">
+				    <ul class="left">
+				      	<li class="divider"></li>
+				      	<li><a href="wod-detail.html">WOD</a></li>
+				      	<li class="divider"></li>
+				      	<li class="has-dropdown"><a href="#">About</a>
+				      	    <ul class="dropdown">
+				      	        <li class="divider"></li>
+				      	        <li><a href="our-gym.html">Our Gym</a></li>
+				      	        <li class="divider"></li>
+				      	        <li><a href="schedule.html">Class Schedule</a></li>
+				      	        <li class="divider"></li>				      	        
+				      	        <li><a href="coaches.html">Coaches</a></li>
+				      	        <li class="divider"></li>
+				      	        <li class='current'><a class='current' href="what-is-crossfit.html">What is Crossfit?</a></li>
+				      	        <li class="divider"></li>
+				      	    </ul>
+				      	</li>
+				      	<li class="divider"></li>
+				      	<li><a href="pricing.html">Membership Plans &amp; Pricing</a></li>
+				      	<li class="divider"></li>
+				      	<li><a href="news-listing.html">News</a></li>
+				      	<li class="divider"></li>
+				      	<li><a href="#">Contact</a></li>
+				      	<li class="divider"></li>      
+				    </ul>
+				    <ul class="right">
+				    	<li><a href="login.html">Member Login</a></li>
+				    	<li class="has-form">
+				    		<a href="register.html" class="button secondary">Join Now</a>
+				    	</li>
+				    </ul>
+				</section>	
+			</nav>
+		</div>
+	</div>
+</header>
+<div class="interior row">
+	<div class="large-12 columns">
+		<h3>What is CrossFit? </h3>
+		<p class="lead panel">
+			CrossFit is the principal strength and conditioning program for many police academies and tactical operations teams, military special operations units, champion martial artists, and hundreds of other elite and professional athletes worldwide.
+		</p>		
+		<section class="row">
+			<div class="large-8 columns push-4">
+				<h4>Overview</h4>
+				<p>
+					Our program delivers a fitness that is, by design, broad, general, and inclusive. Our specialty is not specializing. Combat, survival, many sports, and life reward this kind of fitness and, on average, punish the specialist.
+				</p>
+				<p>
+					The CrossFit program is designed for universal scalability making it the perfect application for any committed individual regardless of experience. We’ve used our same routines for elderly individuals with heart disease and cage fighters one month out from televised bouts. We scale load and intensity; we don’t change programs.
+				</p>
+			</div>
+			<div class="large-4 columns pull-8">
+				<img src="http://placehold.it/800x800&text=photo"/>
+			</div>						
+		</section>
+		<section class="row">
+			<div class="large-8 columns push-4">
+				<h4>Foundations</h4>
+				<p>
+					CrossFit is a core strength and conditioning program. We have designed our program to elicit as broad an adaptation response as possible. CrossFit is not a specialized fitness program but a deliberate attempt to optimize physical competence in each of ten recognized fitness domains. They are Cardiovascular and Respiratory endurance, Stamina, Strength, Flexibility, Power, Speed, Coordination, Agility, Balance, and Accuracy.
+				</p>
+				<p>
+					The CrossFit Program was developed to enhance an individual’s competency at all physical tasks. Our athletes are trained to perform successfully at multiple, diverse, and randomized physical challenges. This fitness is demanded of military and police personnel, firefighters, and many sports requiring total or complete physical prowess. CrossFit has proven effective in these arenas.
+				</p>
+				<p>
+					Aside from the breadth or totality of fitness the CrossFit Program seeks, our program is distinctive, if not unique, in its focus on maximizing neuroendocrine response, developing power, cross-training with multiple training modalities, constant training and practice with functional movements, and the development of successful diet strategies.
+				</p>
+				<p>
+					We train our athletes in gymnastics from rudimentary to advanced movements garnering great capacity at controlling the body both dynamically and statically while maximizing strength to weight ratio and flexibility. We also place a heavy emphasis on Olympic Weightlifting having seen this sport’s unique ability to develop an athletes’ explosive power, control of external objects, and mastery of critical motor recruitment patterns. And finally we encourage and assist our athletes to explore a variety of sports as a vehicle to express and apply their fitness.
+				</p>	
+			</div>
+			<div class="large-4 columns pull-8">
+				<img src="http://placehold.it/800x800&text=photo"/>
+			</div>						
+		</section>
+		<section class="row">
+			<div class="large-8 columns push-4">
+				<h4>The CrossFit Method</h4>
+				<p>
+					The CrossFit method is to establish a hierarchy of effort and concern that builds as follows:
+				</p>
+				<p>
+					<b>Diet</b><br/>
+					A proper diet lays the molecular foundations for fitness and health.
+				</p>
+				<p>
+					<b>Metabolic Conditioning</b><br/>
+					This builds capacity in each of three metabolic pathways, beginning with aerobic, then lactic acid, and then phosphocreatine pathways.
+				</p>
+				<p>
+					<b>Gymnastics</b><br/>
+					Establishes functional capacity for body control and range of motion.
+				</p>				
+				<p>
+					<b>Weightlifting and Throwing</b><br/>
+					Develop ability to control external objects and produce power.
+				</p>
+				<p>
+					<b>Sport</b><br/>
+					Applies fitness in competitive atmosphere with more randomized movements and skill mastery.
+				</p>
+			</div>
+			<div class="large-4 columns pull-8">
+				<img src="http://placehold.it/800x800&text=photo"/>
+			</div>						
+		</section>
+		<section class="row">
+			<div class="large-8 columns push-4">
+				<h4>Is this for me?</h4>
+				<p>
+					Absolutely! Your needs and the Olympic athlete’s differ by degree not kind. Increased power, strength, cardiovascular and respiratory endurance, flexibility, stamina, coordination, agility, balance, and coordination are each important to the world’s best athletes and to our grandparents.
+				</p>
+				<p>
+					The amazing truth is that the very same methods that elicit optimal response in the Olympic or professional athlete will optimize the same response in the elderly. Of course, we can’t load your grandmother with the same squatting weight that we’d assign an Olympic skier, but they both need to squat. In fact, squatting is essential to maintaining functional independence and improving fitness.
+				</p>
+				<p>
+					Squatting is just one example of a movement that is universally valuable and essential yet rarely taught to any but the most advanced of athletes. This is a tragedy. Through painstakingly thorough coaching and incremental load assignment CrossFit has been able to teach anyone who can care for themselves to perform safely and with maximum efficacy the same movements typically utilized by professional coaches in elite and certainly exclusive environments.
+				</p>
+			</div>
+			<div class="large-4 columns pull-8">
+				<img src="http://placehold.it/800x800&text=photo"/>
+			</div>						
+		</section>
+		<section class="row">
+			<div class="large-8 columns push-4">
+				<h4>Example CrossFit Exercises</h4>
+				<p>There isn’t a strength and conditioning program anywhere that works with a greater diversity of tools, modalities, and drill. Here's some examples of the exercises we utilize: 
+				<ul>
+					<li>Biking, running, swimming, and rowing in an endless variety of drills.</li>
+					<li>The clean & jerk, snatch, squat, deadlift, push-press, bench-press, and power-clean.</li>
+					<li>Jumping, medicine ball throws and catches, pull-ups, dips, push-ups, handstands, presses to handstand, pirouettes, kips, cartwheels, muscle-ups, sit-ups, scales, and holds.</li>
+					<li>We make regular use of bikes, the track, rowing shells and ergometers, Olympic weight sets, rings, parallel bars, free exercise mat, horizontal bar, plyometrics boxes, medicine balls, and jump rope.</li>
+				</ul>
+			</div>
+			<div class="large-4 columns pull-8">
+				<img src="http://placehold.it/800x800&text=photo"/>
+			</div>						
+		</section>
+		<section class="row">
+			<div class="large-8 columns push-4">
+				<h4>Do I have time for all of this? </h4>
+				<p>
+					It is a common sentiment to feel that because of the obligations of career and family that you don’t have the time to become as fit as you might like. Here’s the good news: world class, age group strength and conditioning is obtainable through <b>just an hour a day</b> six days per week of training.
+				</p>
+				<p>
+					It turns out that the intensity of training that optimizes physical conditioning is not sustainable past forty-five minutes to an hour. Athletes that train for hours a day are developing skill or training for sports that include adaptations inconsistent with elite strength and conditioning. Past one hour, more is not better!
+				</p>
+			</div>
+			<div class="large-4 columns pull-8">
+				<img src="http://placehold.it/800x800&text=photo"/>
+			</div>						
+		</section>
+		<section class="row">
+			<div class="large-8 columns push-4">
+				<h4>Diet</h4>
+				<p>
+					Nutrition plays a vital part in fitness and overall health. Here's the CrossFit dietary prescription:
+				</p>
+				<p>
+					<b>Protein</b><br/>
+					Protein should be lean and varied and account for about 30% of your total caloric load.
+				</p>
+				<p>
+					<b>Carbohydrates</b><br/>
+					Carbohydrates should be predominantly low-glycemic and account for about 40% of your total caloric load.
+				</p>
+				<p>
+					<b>Fat</b><br/>
+					Fat should be predominantly monounsaturated and account for about 30% of your total caloric load.
+				</p>
+				<p>
+					<b>Calories</b><br/>
+					Calories should be set at between .7 and 1.0 grams of protein per pound of lean body mass depending on your activity level. The .7 figure is for moderate daily workout loads and the 1.0 figure is for the hardcore athlete.
+				</p>
+				<p class="panel">
+					<a href="#">Read our articles about nutrition and diet &raquo;</a>
+				</p>												
+			</div>
+			<div class="large-4 columns pull-8">
+				<img src="http://placehold.it/800x800&text=photo"/>
+			</div>						
+		</section>																					
+	</div>
+</div>
+<div class="interior row">
+	<div class="large-12 columns">
+		<div id="main-cta" class="panel">
+			<h3>How do I get started?</h3>
+			<p class="lead">
+				Some brief marketing copy will go here as a call to action for the visitor. Some brief marketing copy will go here as a call to action for the visitor.
+			</p>
+			<p>
+				<a class="button large" href="#">See Plans and Pricing</a>
+			</p>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="row">
+		<div class="large-12 columns">
+			<p>
+				CrossFit South Shore<br/>
+				<a href="#">145 Webster St, Hanover, MA 02339</a><br/>
+				<a href="#">781-799-0294</a> &middot;  
+				<a href="#">Email Us</a>
+			</p>
+		</div>
+		<div id="social-icons" class="large-12 columns">
+			<a href="#">fb</a>
+			<a href="#">tw</a>
+			<a href="#">pi</a>
+			<a href="#">g+</a>
+			<a href="#">yt</a>
+			<a href="#">ig</a>
+		</div>
+
+	</div>
+</footer>
+    <script src='assets/js/vendor/jquery.js'></script>
+    <script src='assets/js/foundation/foundation.js'></script>
+    <script src='assets/js/foundation/foundation.alerts.js'></script>
+    <script src='assets/js/foundation/foundation.clearing.js'></script>
+    <script src='assets/js/foundation/foundation.cookie.js'></script>
+    <script src='assets/js/foundation/foundation.dropdown.js'></script>
+    <script src='assets/js/foundation/foundation.forms.js'></script>
+    <script src='assets/js/foundation/foundation.interchange.js'></script>    
+    <script src='assets/js/foundation/foundation.joyride.js'></script>
+    <script src='assets/js/foundation/foundation.magellan.js'></script>
+    <script src='assets/js/foundation/foundation.orbit.js'></script>
+    <script src='assets/js/foundation/foundation.placeholder.js'></script>
+    <script src='assets/js/foundation/foundation.reveal.js'></script>
+    <script src='assets/js/foundation/foundation.section.js'></script>
+    <script src='assets/js/foundation/foundation.tooltips.js'></script>
+    <script src='assets/js/foundation/foundation.topbar.js'></script>
+    <script src='assets/js/foundation/index.js'></script>
+	<script src='assets/js/script.js'></script>
+</body>
+</html>
