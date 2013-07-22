@@ -8,7 +8,7 @@
 			}
 		}
 
-	ul {
+	.listing ul {
 		li {
 			background:#eee;
 			margin:.3rem 0;
@@ -33,5 +33,12 @@
 
 	.small-6 .button{
 		margin-top:2rem;
+	}
+
+	.sidebar {
+		section {
+			background:#ddd;
+			padding:1rem;
+		}
 	}
 }
