@@ -4370,3 +4370,12 @@ footer {
   border-bottom: 1px solid #ddd;
   padding-bottom: 1.5rem;
   margin-top: 1.5rem; }
+
+.pricing {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1.5rem; }
+  .pricing p span {
+    display: block;
+    font-weight: bold;
+    border-bottom: 1px dashed #ddd;
+    padding: .5rem 0; }
