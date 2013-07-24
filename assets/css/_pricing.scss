@@ -3,10 +3,32 @@
 	border-bottom:1px solid #ddd;
 	margin-bottom:1.5rem;
 
-	p span{
-		display:block;
-		font-weight:bold;
-		border-bottom:1px dashed #ddd;
+
+
+	.large-10{
+		padding:2rem 0;
+		border-bottom:1px solid #ddd;
+	}
+
+	.plan{
+		margin:.5rem 0;
 		padding:.5rem 0;
+		a{
+			border:2px solid $primary-color;
+			display:block;
+			text-align:center;
+			border-radius:5px;
+			transition:all .25s ease-out;
+			font-weight: normal;
+		}
+		p{
+			margin:.5rem 0;
+		}
+	}
+
+	.plan:hover a{
+		background:$primary-color;
+		color:#fff;
 	}
 }
+

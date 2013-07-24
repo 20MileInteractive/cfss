@@ -4356,6 +4356,10 @@ footer {
     background: #ddd;
     padding: 1rem; }
 
+.travel-wod {
+  border-bottom: 1px solid #ddd;
+  padding-top: 1rem; }
+
 .blog-excerpt {
   margin: 1rem auto;
   padding: 1rem; }
@@ -4374,8 +4378,21 @@ footer {
 .pricing {
   border-bottom: 1px solid #ddd;
   margin-bottom: 1.5rem; }
-  .pricing p span {
-    display: block;
-    font-weight: bold;
-    border-bottom: 1px dashed #ddd;
+  .pricing .large-10 {
+    padding: 2rem 0;
+    border-bottom: 1px solid #ddd; }
+  .pricing .plan {
+    margin: .5rem 0;
     padding: .5rem 0; }
+    .pricing .plan a {
+      border: 2px solid #2ba6cb;
+      display: block;
+      text-align: center;
+      border-radius: 5px;
+      transition: all .25s ease-out;
+      font-weight: normal; }
+    .pricing .plan p {
+      margin: .5rem 0; }
+  .pricing .plan:hover a {
+    background: #2ba6cb;
+    color: #fff; }
