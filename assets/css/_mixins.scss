@@ -1,5 +1,24 @@
 // Mixings
 
+
 @mixin center-text{
 	text-align:center;
 }
+
+@mixin sans {
+	font-family: 'Monda', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+@mixin serif {
+	font-family: 'Droid Serif', Georgia, Times, "Times New Roman", serif;
+}
+
+@mixin pattern {
+	background: #eee url(cream_pixels.png);
+}
+
+@mixin pattern-dark {
+	background: #ddd url(dark_cream_pixels.png);
+}
+
+

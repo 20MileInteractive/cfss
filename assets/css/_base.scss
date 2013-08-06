@@ -17,3 +17,30 @@ ul,ol{
 div#main-cta{
 	@include center-text;
 }
+
+body {
+	background: url(cream_pixels.png);
+	@include serif;
+
+	p {
+		@include serif;
+	}
+
+	h1,h2,h3,h4,h5,h6 {
+		@include sans;
+	}
+}
+
+.panel {
+	color: #fff;
+	@include sans;
+}
+
+
+
+@media  (-webkit-min-device-pixel-ratio: 1.5) , (min-resolution: 144dpi) { 
+	body{
+		background: url(cream_pixels_@2X.png);
+		background-size: 160px 160px;
+	}
+}
