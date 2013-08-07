@@ -4320,13 +4320,23 @@ header #logo {
 header .hide-for-small {
   text-align: right;
   padding-top: 1rem; }
+header nav.top-bar li.has-form a:hover {
+  color: #111; }
+header nav.top-bar a {
+  font-family: 'Monda', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: normal; }
+  header nav.top-bar a:hover {
+    background: #005387; }
+header nav.top-bar a.secondary.button {
+  background: #eeeeee url(../img/cream_pixels.png); }
 
 @media only screen and (max-width: 768px) {
   header #logo {
     margin: 0 auto;
     display: block; } }
 footer {
-  margin: 4rem auto 3rem;
+  margin: 4rem auto 0;
+  padding-bottom: 3rem;
   text-align: center; }
   footer ul {
     text-align: center;
@@ -4377,7 +4387,8 @@ footer {
 
 #home-benefits {
   background: #eee;
-  background: #dddddd url(../img/dark_cream_pixels.png); }
+  background: #dddddd url(../img/dark_cream_pixels.png);
+  border-bottom: 1px solid #fff; }
   #home-benefits h2 {
     text-align: center;
     padding: 2rem 0;
@@ -4388,7 +4399,7 @@ footer {
   #home-benefits #home-cta {
     text-align: center; }
     #home-benefits #home-cta a {
-      margin: 3rem auto -2rem;
+      margin: 3rem auto -2.5rem;
       padding: 1rem 2rem;
       text-align: center; }
 

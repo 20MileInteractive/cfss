@@ -20,6 +20,25 @@ header{
 		text-align:right;
 		padding-top:1rem;
 	}
+
+	nav.top-bar {
+
+		li.has-form a:hover {
+			color:#111;
+		}
+
+		a {
+			@include sans;
+			font-weight:normal;
+			&:hover {
+				background: $primary-color;
+			}
+		}
+
+		a.secondary.button {
+			@include pattern;
+		}
+	}
 }
 
 @media only screen and (max-width: 768px) {
