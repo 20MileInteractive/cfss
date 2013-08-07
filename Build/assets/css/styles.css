@@ -2716,7 +2716,7 @@ form.custom {
     width: 100%;
     height: auto;
     display: block;
-    background: #222222;
+    background: #005387;
     font-size: 16px;
     margin: 0; }
   .top-bar-section .divider,
@@ -2734,7 +2734,7 @@ form.custom {
     padding-left: 15px;
     font-size: 0.8125em;
     font-weight: bold;
-    background: #222222; }
+    background: #005387; }
     .top-bar-section ul li > a.button {
       background: #005387;
       font-size: 0.8125em; }
@@ -4295,6 +4295,16 @@ body {
 .panel {
   color: #fff;
   font-family: 'Monda', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+.button {
+  font-family: 'Monda', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+.secondary.button {
+  background: #dddddd url(../img/dark_cream_pixels.png);
+  color: #666;
+  font-weight: normal; }
+  .secondary.button:hover {
+    color: #111; }
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   body {

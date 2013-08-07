@@ -36,6 +36,19 @@ body {
 	@include sans;
 }
 
+.button {
+	@include sans;
+}
+
+.secondary.button{
+	@include pattern-dark;
+	color:#666;
+	font-weight:normal;
+	&:hover {
+		color:#111;
+	}
+}
+
 
 
 @media  (-webkit-min-device-pixel-ratio: 1.5) , (min-resolution: 144dpi) { 
