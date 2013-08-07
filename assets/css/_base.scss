@@ -40,12 +40,15 @@ body {
 	@include sans;
 }
 
+.button.small {
+	font-weight:normal;
+}
+
 .secondary.button{
-	@include pattern-dark;
 	color:#666;
 	font-weight:normal;
 	&:hover {
-		color:#111;
+		background:#fff;
 	}
 }
 

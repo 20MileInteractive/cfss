@@ -6,6 +6,7 @@
 
 	.large-5 {
 		@include pattern;
+		@include box-shadow(0 -15px 25px rgba(0,0,0,.5));
 
 		.content {
 			border:none;
@@ -93,6 +94,11 @@
 	img#home-news-thumb{
 		float: left;
 	}
+
+	.large-5 {
+			@include pattern;
+			@include box-shadow(0 0 25px rgba(0,0,0,.5));
+	}	
 }
 
 

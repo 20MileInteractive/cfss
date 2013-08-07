@@ -35,8 +35,11 @@ header{
 			}
 		}
 
-		a.secondary.button {
-			@include pattern;
+		a.alert.button {
+			color: #111;
+			&:hover {
+				color:#111;
+			}
 		}
 	}
 }
