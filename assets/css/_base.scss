@@ -14,8 +14,16 @@ ul,ol{
 	}
 }
 
-div#main-cta{
+div#main-cta.panel{
 	@include center-text;
+	
+	p {
+		color:#555 !important;
+	}
+
+	h3 {
+		color: #111;
+	}
 }
 
 body {
@@ -32,8 +40,10 @@ body {
 }
 
 .panel {
-	color: #fff;
+	color: #333;
 	@include sans;
+	border: 1px solid #aaa;
+	@include pattern-dark;
 }
 
 .button {

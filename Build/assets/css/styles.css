@@ -4281,8 +4281,12 @@ ul, ol {
     margin: 1.5rem auto;
     padding-bottom: 1.5rem; }
 
-div#main-cta {
+div#main-cta.panel {
   text-align: center; }
+  div#main-cta.panel p {
+    color: #555 !important; }
+  div#main-cta.panel h3 {
+    color: #111; }
 
 body {
   background: url(../img/cream_pixels.png);
@@ -4293,8 +4297,10 @@ body {
     font-family: 'Monda', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 .panel {
-  color: #fff;
-  font-family: 'Monda', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+  color: #333;
+  font-family: 'Monda', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  border: 1px solid #aaa;
+  background: #dddddd url(../img/dark_cream_pixels.png); }
 
 .button {
   font-family: 'Monda', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
@@ -4461,9 +4467,6 @@ footer {
   margin: 1rem auto;
   padding: 1rem; }
 
-.blog-excerpt:nth-child(even) {
-  background: #eee; }
-
 .wod ul.pagination {
   margin-top: 3rem; }
 
@@ -4489,7 +4492,8 @@ footer {
       transition: all .25s ease-out;
       font-weight: normal; }
     .pricing .plan p {
-      margin: .5rem 0; }
+      margin: .5rem 0;
+      color: #555; }
   .pricing .plan:hover a {
     background: #005387;
     color: #fff; }
