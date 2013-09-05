@@ -1,3 +1,5 @@
 .DS_Store
 
 Build/
+Build/assets/css/styles.css
+Build/assets/js/script.js
