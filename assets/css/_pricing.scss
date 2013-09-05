@@ -14,7 +14,7 @@
 		margin:.5rem 0;
 		padding:.5rem 0;
 		a{
-			border:2px solid $primary-color;
+			border:2px solid #4DB7C5;
 			display:block;
 			text-align:center;
 			border-radius:5px;
@@ -28,7 +28,7 @@
 	}
 
 	.plan:hover a{
-		background:$primary-color;
+		background:#4DB7C5;
 		color:#fff;
 	}
 }

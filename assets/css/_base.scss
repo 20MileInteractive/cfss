@@ -1,5 +1,16 @@
 // Base style sheet
-
+a {
+	color: #4DB7C5;
+}
+button, .button {
+background-color: #F7870E;
+border-color: #cb6d07;
+}
+button.secondary, .button.secondary, .secondary.button {
+background-color: #4DB7C5;
+border-color: #005387;
+color: #fff !important;
+}
 ul,ol{
 	list-style-position:inside;
 }
