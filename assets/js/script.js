@@ -6,7 +6,7 @@ $(document).foundation();
 
 $(document).ready(function() {
    $(".has-children").addClass("has-dropdown");
-   $(".has-children ul").addClass("dropdown");
+   $(".has-children ul").addClass("dropdown").show();
    $('.fancybox').fancybox();
 		
 	$( "p.title" ).click(function() {

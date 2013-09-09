@@ -2,6 +2,9 @@
 a {
 	color: #4DB7C5;
 }
+a:hover {
+	color: darken(#4DB7C5, 10%);
+}
 button, .button {
 background-color: #F7870E;
 border-color: #cb6d07;
@@ -10,6 +13,9 @@ button.secondary, .button.secondary, .secondary.button {
 background-color: #4DB7C5;
 border-color: #005387;
 color: #fff !important;
+}
+button.secondary:hover, .button.secondary:hover, .secondary.button:hover {
+color: #666 !important;
 }
 ul,ol{
 	list-style-position:inside;
