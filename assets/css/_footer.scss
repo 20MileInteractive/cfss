@@ -1,11 +1,9 @@
 footer{
 	margin:4rem auto 0;
 	padding-bottom:3rem;
-	@include center-text;
 
 	ul {
 
-		text-align : center;
 		display : block;
 		width : 100%;
 	}
@@ -24,5 +22,8 @@ footer{
 			height:20px;
 			margin-top:5px;
 		}		
+	}
+	#made-by {
+		text-align: center; background: #333; padding: 1em 0;
 	}
 }
